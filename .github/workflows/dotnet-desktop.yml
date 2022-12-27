@@ -38,13 +38,13 @@ jobs:
       
     # Build
     - name: Build OSX
-      run: dotnet publish -p:PublishSingleFile=true;AssemblyName=MirrorMirror-osx-x64 -r osx-x64 -c Release --self-contained true --configuration
+      run: dotnet publish -p:PublishSingleFile=true,AssemblyName=MirrorMirror-osx-x64 -r osx-x64 -c Release --self-contained true --configuration
       
     - name: Build Windows
-      run: dotnet publish -p:PublishSingleFile=true;AssemblyName=MirrorMirror-win-x64 -r win-x64 -c Release --self-contained true --configuration
+      run: dotnet publish -p:PublishSingleFile=true,AssemblyName=MirrorMirror-win-x64 -r win-x64 -c Release --self-contained true --configuration
       
     - name: Build Linux
-      run: dotnet publish -p:PublishSingleFile=true;AssemblyName=MirrorMirror-linux-x64 -r linux-x64 -c Release --self-contained true --configuration
+      run: dotnet publish -p:PublishSingleFile=true,AssemblyName=MirrorMirror-linux-x64 -r linux-x64 -c Release --self-contained true --configuration
 
     - name: Generate release tag
       id: tag
@@ -57,6 +57,6 @@ jobs:
       with:
         tag_name: ${{ steps.tag.outputs.release_tag }}
         files: |
-          MirrorMirror/bin/Release/net7.0/linux-x64/publish/MirrorMirror
-          MirrorMirror/bin/Release/net7.0/osx-x64/publish/MirrorMirror
-          MirrorMirror/bin/Release/net7.0/win-x64/publish/MirrorMirror.exe
+          MirrorMirror/bin/Release/net7.0/linux-x64/publish/MirrorMirror-linux-x64
+          MirrorMirror/bin/Release/net7.0/osx-x64/publish/MirrorMirror-osx-x64
+          MirrorMirror/bin/Release/net7.0/win-x64/publish/MirrorMirror-win-x64.exe
