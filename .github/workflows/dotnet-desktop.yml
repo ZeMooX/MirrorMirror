@@ -57,6 +57,6 @@ jobs:
       with:
         tag_name: ${{ steps.tag.outputs.release_tag }}
         files: |
-          MirrorMirror\bin\Release\net7.0\linux-x64\publish\MirrorMirror
-          MirrorMirror\bin\Release\net7.0\osx-x64\publish\MirrorMirror
-          MirrorMirror\bin\Release\net7.0\win-x64\publish\MirrorMirror.exe
+          MirrorMirror\bin\Release\net7.0\linux-x64\publish\*MirrorMirror
+          MirrorMirror\bin\Release\net7.0\osx-x64\publish\*MirrorMirror
+          MirrorMirror\bin\Release\net7.0\win-x64\publish\*MirrorMirror.exe
