@@ -68,3 +68,4 @@ C:\Git\MirrorMirror\MirrorMirror\obj\Debug\net7.0\refint\MirrorMirror.dll
 C:\Git\MirrorMirror\MirrorMirror\obj\Debug\net7.0\MirrorMirror.pdb
 C:\Git\MirrorMirror\MirrorMirror\obj\Debug\net7.0\MirrorMirror.genruntimeconfig.cache
 C:\Git\MirrorMirror\MirrorMirror\obj\Debug\net7.0\ref\MirrorMirror.dll
+C:\Git\MirrorMirror\MirrorMirror\bin\Debug\net7.0\Spectre.Console.dll

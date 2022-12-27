@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6GJqepLE3pdijfldvLuN4CorJRO/KHv4CUwg123Uz8aJRICKP9Jsy+qXWmAALigWfz68N9pAknqvyT3PyKLFaw==",
+  "dgSpecHash": "iUZoDy1ogT072XY2zmpfyTGdMm3r8UaZHCLpxqP7aLHUGRBCJRz5tkvef5GEgCZyMchAkWG5RKDntNUin6qj6A==",
   "success": true,
   "projectFilePath": "C:\\Git\\MirrorMirror\\MirrorMirror\\MirrorMirror.csproj",
   "expectedPackageFiles": [
@@ -56,18 +56,22 @@
     "C:\\Users\\ZeMooX\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\ZeMooX\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\ZeMooX\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\ZeMooX\\.nuget\\packages\\spectre.console\\0.45.0\\spectre.console.0.45.0.nupkg.sha512",
     "C:\\Users\\ZeMooX\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\ZeMooX\\.nuget\\packages\\system.componentmodel.annotations\\4.5.0\\system.componentmodel.annotations.4.5.0.nupkg.sha512",
     "C:\\Users\\ZeMooX\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.5.1\\system.diagnostics.diagnosticsource.4.5.1.nupkg.sha512",
     "C:\\Users\\ZeMooX\\.nuget\\packages\\system.io.pipelines\\4.5.2\\system.io.pipelines.4.5.2.nupkg.sha512",
-    "C:\\Users\\ZeMooX\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\ZeMooX\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
     "C:\\Users\\ZeMooX\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\ZeMooX\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
     "C:\\Users\\ZeMooX\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
     "C:\\Users\\ZeMooX\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "C:\\Users\\ZeMooX\\.nuget\\packages\\system.security.principal.windows\\4.5.0\\system.security.principal.windows.4.5.0.nupkg.sha512",
     "C:\\Users\\ZeMooX\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
-    "C:\\Users\\ZeMooX\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.1\\system.threading.tasks.extensions.4.5.1.nupkg.sha512"
+    "C:\\Users\\ZeMooX\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.1\\system.threading.tasks.extensions.4.5.1.nupkg.sha512",
+    "C:\\Users\\ZeMooX\\.nuget\\packages\\microsoft.netcore.app.runtime.osx-x64\\7.0.1\\microsoft.netcore.app.runtime.osx-x64.7.0.1.nupkg.sha512",
+    "C:\\Users\\ZeMooX\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.osx-x64\\7.0.1\\microsoft.aspnetcore.app.runtime.osx-x64.7.0.1.nupkg.sha512",
+    "C:\\Users\\ZeMooX\\.nuget\\packages\\microsoft.netcore.app.host.osx-x64\\7.0.1\\microsoft.netcore.app.host.osx-x64.7.0.1.nupkg.sha512"
   ],
   "logs": []
 }

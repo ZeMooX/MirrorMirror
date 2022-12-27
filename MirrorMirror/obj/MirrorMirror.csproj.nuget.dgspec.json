@@ -47,6 +47,10 @@
             "Microsoft.AspNetCore.Hosting": {
               "target": "Package",
               "version": "[2.2.7, )"
+            },
+            "Spectre.Console": {
+              "target": "Package",
+              "version": "[0.45.0, )"
             }
           },
           "imports": [
@@ -60,12 +64,31 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.osx-x64",
+              "version": "[7.0.1, 7.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[7.0.1, 7.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.osx-x64",
+              "version": "[7.0.1, 7.0.1]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "osx-x64": {
+          "#import": []
         }
       }
     }
