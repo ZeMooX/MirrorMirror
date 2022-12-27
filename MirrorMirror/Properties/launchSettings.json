@@ -1,8 +1,7 @@
 {
   "profiles": {
     "MirrorMirror": {
-      "commandName": "Project",
-      "commandLineArgs": "-p 8015 9865"
+      "commandName": "Project"
     }
   }
 }
