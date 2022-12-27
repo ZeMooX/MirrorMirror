@@ -38,13 +38,13 @@ jobs:
       
     # Build
     - name: Build OSX
-      run: dotnet publish -p:PublishSingleFile=true -r osx-x64 -c Release --self-contained true --configuration Release
+      run: dotnet publish -p:PublishSingleFile=true -r osx-x64 -c Release --self-contained true --configuration
       
     - name: Build Windows
-      run: dotnet publish -p:PublishSingleFile=true -r win-x64 -c Release --self-contained true --configuration Release
+      run: dotnet publish -p:PublishSingleFile=true -r win-x64 -c Release --self-contained true --configuration
       
     - name: Build Linux
-      run: dotnet publish -p:PublishSingleFile=true -r linux-x64 -c Release --self-contained true --configuration Release
+      run: dotnet publish -p:PublishSingleFile=true -r linux-x64 -c Release --self-contained true --configuration
 
     # Upload the MSIX package: https://github.com/marketplace/actions/upload-a-build-artifact
     - name: Upload build artifacts
