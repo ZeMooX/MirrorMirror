@@ -50,6 +50,7 @@ jobs:
     - name: Release
       uses: softprops/action-gh-release@v1
       with:
+        tag_name: ${{ github.sha }}
         files: |
           MirrorMirror\bin\Release\net7.0\linux-x64\publish\MirrorMirror
           MirrorMirror\bin\Release\net7.0\osx-x64\publish\MirrorMirror
